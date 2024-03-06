@@ -14,3 +14,6 @@ command
 -------------------
 terraform init
 terraform plan -generate-config-out=generated_resource.tf
+(copy all the generated code and paste it in main.ft file)
+
+terraform import aws_instance.exmaple i-0947784663686
